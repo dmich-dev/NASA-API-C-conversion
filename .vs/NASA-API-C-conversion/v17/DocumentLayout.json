@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\source\\dmich-dev\\NASA-API-C-conversion\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\source\\dmich-dev\\NASA-API-C-conversion\\README_WPF.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:README_WPF.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "README_WPF.md",
+              "DocumentMoniker": "E:\\source\\dmich-dev\\NASA-API-C-conversion\\README_WPF.md",
+              "RelativeDocumentMoniker": "README_WPF.md",
+              "ToolTip": "E:\\source\\dmich-dev\\NASA-API-C-conversion\\README_WPF.md",
+              "RelativeToolTip": "README_WPF.md",
+              "ViewState": "AgIAABEAAAAAAAAAAAAiwDQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-09-05T21:12:00.605Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

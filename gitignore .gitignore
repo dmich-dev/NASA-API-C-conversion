@@ -1,0 +1,36 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build artifacts
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+TestResults/
+artifacts/
+
+# Packages
+*.nupkg
+*.snupkg
+packages/
+*.cache
+
+# Others
+*.pch
+*.pdb
+*.opendb
+*.VC.db
+
+# Rider / VS Code
+.idea/
+.vscode/
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# Local settings
+appsettings.*.Local.json
