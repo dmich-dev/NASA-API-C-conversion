@@ -1,0 +1,13 @@
+E:\source\Final_project\NasaAPODViewer\obj\Debug\net6.0-windows\NasaAPODViewer.csproj.AssemblyReference.cache
+E:\source\Final_project\NasaAPODViewer\obj\Debug\net6.0-windows\MainWindow.g.cs
+E:\source\Final_project\NasaAPODViewer\obj\Debug\net6.0-windows\NasaAPODViewer_MarkupCompile.cache
+E:\source\Final_project\NasaAPODViewer\obj\Debug\net6.0-windows\NasaAPODViewer_MarkupCompile.lref
+E:\source\Final_project\NasaAPODViewer\obj\Debug\net6.0-windows\MainWindow.baml
+E:\source\Final_project\NasaAPODViewer\obj\Debug\net6.0-windows\NasaAPODViewer.g.resources
+E:\source\Final_project\NasaAPODViewer\obj\Debug\net6.0-windows\NasaAPODViewer.GeneratedMSBuildEditorConfig.editorconfig
+E:\source\Final_project\NasaAPODViewer\obj\Debug\net6.0-windows\NasaAPODViewer.AssemblyInfoInputs.cache
+E:\source\Final_project\NasaAPODViewer\obj\Debug\net6.0-windows\NasaAPODViewer.AssemblyInfo.cs
+E:\source\Final_project\NasaAPODViewer\obj\Debug\net6.0-windows\NasaAPODViewer.csproj.CoreCompileInputs.cache
+E:\source\Final_project\NasaAPODViewer\obj\Debug\net6.0-windows\NasaAPODViewer.sourcelink.json
+E:\source\Final_project\NasaAPODViewer\obj\Debug\net6.0-windows\refint\NasaAPODViewer.dll
+E:\source\Final_project\NasaAPODViewer\obj\Debug\net6.0-windows\NasaAPODViewer.pdb
