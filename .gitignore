@@ -1,0 +1,80 @@
+.vs/
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Aa]rtifacts/
+TestResults/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.VC.opendb
+*.vscode/
+.idea/
+
+# Tooling / cache
+_ReSharper*/
+*.DotSettings.user
+*.ncrunchsolution
+*.ncrunchproject
+*.pyc
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+# NuGet v3 cache
+~/.nuget/packages/
+
+# Build artifacts (others)
+*.cache
+*.pdb
+*.mdb
+*.opendb
+
+# Generated code
+Generated/**
+
+# Publish
+publish/
+
+# Rider
+*.sln.iml
+
+# Logs
+*.log
+
+# Local config (do not commit secrets)
+appsettings.*.Local.json
+*.env
+.env*
+
+# Old data directory (if ever created alongside source)
+data/
+
+# Images downloaded during debugging (if you add a cache folder later)
+image_cache/
+
+# JetBrains cache
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+
+# OS files
+[Tt]humbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Python remnants (if original script kept)
+__pycache__/
+
+# Ignore lock files (optional; comment out if you want to pin)
+# packages.lock.json
+
+# End
