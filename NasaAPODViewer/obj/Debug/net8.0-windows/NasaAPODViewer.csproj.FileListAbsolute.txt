@@ -43,3 +43,4 @@ E:\source\dmich-dev\NASA-API-C-conversion\NasaAPODViewer\obj\Debug\net8.0-window
 E:\source\dmich-dev\NASA-API-C-conversion\NasaAPODViewer\obj\Debug\net8.0-windows\NasaAPODViewer.pdb
 E:\source\dmich-dev\NASA-API-C-conversion\NasaAPODViewer\obj\Debug\net8.0-windows\NasaAPODViewer.genruntimeconfig.cache
 E:\source\dmich-dev\NASA-API-C-conversion\NasaAPODViewer\obj\Debug\net8.0-windows\ref\NasaAPODViewer.dll
+E:\source\dmich-dev\NASA-API-C-conversion\NasaAPODViewer\obj\Debug\net8.0-windows\NasaAPODViewer.sourcelink.json

@@ -1,0 +1,24 @@
+﻿# requirements.txt
+# This repository's main implementation is a C# (.NET 8 / WPF) port.
+# Python is only needed if you also keep / run the original Python version.
+# Remove any lines you do not need based on the actual Python scripts you retained.
+
+# Core HTTP client for calling NASA APOD API
+requests>=2.32.0
+
+# (Optional) If you manipulate or verify downloaded images
+Pillow>=10.3.0
+
+# (Optional) Convenient date parsing (if original script parses user-entered dates)
+python-dateutil>=2.9.0.post0
+
+# (Optional) Progress bars for large downloads
+tqdm>=4.66.0
+
+# (Optional) Load API key from a .env file instead of hard‑coding
+python-dotenv>=1.0.1
+
+# (Optional) JSON schema validation (only if you added validation logic)
+jsonschema>=4.22.0
+
+# Pin exact versions later with `pip freeze > requirements.lock` if reproducibility is critical.

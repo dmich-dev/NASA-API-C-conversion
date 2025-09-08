@@ -7,7 +7,14 @@ namespace NasaAPODViewer
     {
         public const string ApiKey = "T8RPfyvEf6Zn8riLQ0efTZUQreaMpEEKpQr4utyb";
         public static string ApiUrl => $"https://api.nasa.gov/planetary/apod?api_key={ApiKey}";
-        public static string BaseDir => AppDomain.CurrentDomain.BaseDirectory;
-        public static string DataFile => Path.Combine(BaseDir, "data", "finalproject_data_collection.json");
+
+        // Application name for per-user storage
+        public static string AppName => "NasaAPODViewer";
+
+        // Per-user data directory under %LOCALAPPDATA%/NasaAPODViewer
+        public static string DataDir => Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), AppName);
+
+        // JSON log file storing fetched APOD entries
+        public static string DataFile => Path.Combine(DataDir, "apod_log.json");
     }
 }

@@ -25,6 +25,10 @@ namespace NasaAPODViewer
                 response.EnsureSuccessStatusCode();
                 var jsonString = await response.Content.ReadAsStringAsync();
                 var data = JsonConvert.DeserializeObject<ApodData>(jsonString);
+                if (data != null)
+                {
+                    data.FetchDate = DateTime.UtcNow.ToString("o");
+                }
                 return data;
             }
             catch (Exception ex)
@@ -53,8 +57,8 @@ namespace NasaAPODViewer
         {
             try
             {
-                // Ensure directory exists
-                Directory.CreateDirectory(Path.GetDirectoryName(Config.DataFile));
+                // Ensure per-user data directory exists
+                Directory.CreateDirectory(Config.DataDir);
 
                 List<ApodData> existingData;
 
@@ -76,7 +80,8 @@ namespace NasaAPODViewer
                     existingData = new List<ApodData>();
                 }
 
-                // Add new data
+                // Add new data (avoid duplicate for same APOD date)
+                existingData.RemoveAll(x => string.Equals(x.Date, data.Date, StringComparison.OrdinalIgnoreCase));
                 existingData.Add(data);
 
                 // Write data back to file
