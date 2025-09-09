@@ -25,9 +25,4 @@
   <ItemGroup>
     <Compile Update="**\*.cs" />
   </ItemGroup>
-
-  <PropertyGroup>
-    <ApplicationManifest>app.manifest</ApplicationManifest>
-    <ApplicationIcon>Assets\avalonia-logo.ico</ApplicationIcon>
-  </PropertyGroup>
 </Project>

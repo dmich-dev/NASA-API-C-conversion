@@ -2974,8 +2974,8 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "E:\\source\\dmich-dev\\NASA-API-C-conversion\\NasaAPOD.Core\\NasaApod.Core.csproj": {
-              "projectPath": "E:\\source\\dmich-dev\\NASA-API-C-conversion\\NasaAPOD.Core\\NasaApod.Core.csproj"
+            "E:\\source\\dmich-dev\\NASA-API-C-conversion\\NasaApod.Core\\NasaApod.Core.csproj": {
+              "projectPath": "E:\\source\\dmich-dev\\NASA-API-C-conversion\\NasaApod.Core\\NasaApod.Core.csproj"
             }
           }
         }
