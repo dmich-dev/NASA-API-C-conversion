@@ -44,3 +44,5 @@ E:\source\dmich-dev\NASA-API-C-conversion\NasaAPODViewer\obj\Debug\net8.0-window
 E:\source\dmich-dev\NASA-API-C-conversion\NasaAPODViewer\obj\Debug\net8.0-windows\NasaAPODViewer.sourcelink.json
 E:\source\dmich-dev\NASA-API-C-conversion\NasaAPODViewer\obj\Debug\net8.0-windows\MainWindow.baml
 E:\source\dmich-dev\NASA-API-C-conversion\NasaAPODViewer\obj\Debug\net8.0-windows\NasaAPODViewer.g.resources
+E:\source\dmich-dev\NASA-API-C-conversion\NasaAPODViewer\bin\Debug\net8.0-windows\NasaApod.Core.dll
+E:\source\dmich-dev\NASA-API-C-conversion\NasaAPODViewer\bin\Debug\net8.0-windows\NasaApod.Core.pdb

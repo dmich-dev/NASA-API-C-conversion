@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Media.Imaging;
 using Microsoft.Win32;
+using NasaApod.Core; // added shared core reference
 
 namespace NasaAPODViewer
 {

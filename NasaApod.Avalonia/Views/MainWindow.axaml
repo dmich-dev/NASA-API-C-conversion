@@ -1,0 +1,28 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="clr-namespace:NasaApod.Avalonia.ViewModels"
+        x:Class="NasaApod.Avalonia.Views.MainWindow"
+        Width="900" Height="640"
+        Title="NASA APOD (Avalonia)">
+  <Window.DataContext>
+    <vm:ApodViewModel />
+  </Window.DataContext>
+  <Grid ColumnDefinitions="2*,3*" RowDefinitions="* , Auto" Margin="8" >
+    <StackPanel Margin="8" Spacing="6">
+      <TextBlock Text="NASA Astronomy Picture of the Day" FontSize="22" FontWeight="Bold"/>
+      <TextBlock Text="{Binding Title}" FontSize="18" FontWeight="SemiBold"/>
+      <TextBlock Text="{Binding Date}" FontStyle="Italic"/>
+      <ScrollViewer Height="180">
+        <TextBlock Text="{Binding Explanation}" TextWrapping="Wrap"/>
+      </ScrollViewer>
+      <StackPanel Orientation="Horizontal" Spacing="8">
+        <Button Content="Fetch" Command="{Binding FetchAsyncCommand}"/>
+        <Button Content="Save Image" Command="{Binding SaveImageAsyncCommand}" IsEnabled="{Binding Image}"/>
+        <TextBlock Text="{Binding Status}" Margin="12,0,0,0" VerticalAlignment="Center"/>
+      </StackPanel>
+    </StackPanel>
+    <Border Grid.Column="1" Margin="8" BorderThickness="1" BorderBrush="Gray">
+      <Image Source="{Binding Image}" Stretch="Uniform"/>
+    </Border>
+  </Grid>
+</Window>

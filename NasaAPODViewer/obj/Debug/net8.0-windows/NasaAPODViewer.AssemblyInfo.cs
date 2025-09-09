@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NasaAPODViewer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+78b5942ad42423319955f339e64ecad5330e1755")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+632c6e721012ad766c4afb6b60a424c4601d4997")]
 [assembly: System.Reflection.AssemblyProductAttribute("NasaAPODViewer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NasaAPODViewer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
